@@ -1,0 +1,78 @@
+{
+	"LUIS_url": "https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/b7825f2c-01e3-4664-9e08-06d037ac854b?subscription-key=db51ceb1a91044899f8e78deceb6d6db&timezoneOffset=0&verbose=true&q=",
+	"APP_ID": "f4182dfb-cc64-426f-9834-9a65927e4aca",
+	"APP_Password": "FUhk9U7Q3G7yiHDqcc2ecrT",
+
+	"message":{
+		"greeting": "Hello, welcome to BAIOPS!",
+		"promptChoice": "What kind of service do you need?",
+		"promptInput": "Have no idea what service needed? Try describing your question to me.",
+		"choiceResponse": "You can refer to link %(num)d for more information about %(name)s."
+	},
+
+	"links":{
+		"CreateLabel": "http://www.baiops.com/Help/CreateLabel"
+	},
+
+	"services":{
+	    "Auto-Alert Processing": {
+	        "num": 1,
+	        "name": "Auto-Alert Processing"
+	    },
+	    "De-Dup": {
+	        "num": 2,
+	        "name": "De-Dup"
+	    },
+	    "Association Rule": {
+	        "num": 3,
+	        "name": "Association Rule"
+	    },
+	    "AD/DAD": {
+	        "num": 4,
+	        "name":"AD/DAD"
+	    }
+	},
+
+	"waterfalls":{
+		"wf1":{
+			"name":"CreateLabel",
+			"response1": "I think you might have question about creating machine learning labels. This link may help you: http://www.baiops.com/Help/CreateLabel",
+			"response2": "",
+			"response3": "",
+			"response4": "",
+			"response5": ""
+		},
+		"wf2":{
+			"name":"",
+			"response1": "",
+			"response2": "",
+			"response3": "",
+			"response4": "",
+			"response5": ""
+		},
+		"wf3":{
+			"name":"",
+			"response1": "",
+			"response2": "",
+			"response3": "",
+			"response4": "",
+			"response5": ""
+		},	
+		"wf4":{
+			"name":"",
+			"response1": "",
+			"response2": "",
+			"response3": "",
+			"response4": "",
+			"response5": ""
+		},
+		"wf5":{
+			"name":"",
+			"response1": "",
+			"response2": "",
+			"response3": "",
+			"response4": "",
+			"response5": ""
+		}
+	}
+}
